@@ -36,7 +36,6 @@ Reformatting code, implementing clear naming convention, and notating often are 
 
 ## Usage
 
-The server.js file can be used to understand the dynamic code that supports the application. 
 Here is a link to the deployed application, for your reference: https://pwa-text-editor-f34v.onrender.com
 I was unable to successfully deploy to Render, though the application does work locally.
 
