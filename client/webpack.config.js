@@ -18,6 +18,8 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
+        // header: './src/js/header.js',
+
       }),
       new InjectManifest({
         swSrc: './src-sw.js', // Path to your service worker source file

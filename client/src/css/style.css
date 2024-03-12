@@ -20,6 +20,10 @@ h1 {
   font-size: 22px;
 }
 
+#header {
+  color: white;
+}
+
 #navbar {
   height: var(--navbar-height);
   background-color: var(--primary);
