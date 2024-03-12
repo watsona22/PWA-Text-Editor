@@ -30,13 +30,18 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
 ```
-This challenge utilized the node environment to create a program using dynamic Javascript. and relevant libraries to create a PWA application with persistent data. I first encountered issues when trying to add various database logic. The second issue was setting up the webpack to include everything needed to render the app. Even though I included a path to the service worker file, I continued to receive messages that it could not connect. There were also issues pointing to the right image files. I was still unable to display the header file in the html file (see index file for detail - commented text) as expected or the favicon - the other features appear to work. There were some messages in the terminal that I had trouble interpreting; for instance there was a persistent message about calling InjectManifest multiple times. I am unsure how this is the case, as it is only listed once but more work with the webpack documentation would likely prove beneficial here. I found Insomnia tremendously helpful in testing the endpoints after each code edit. Naming convention continues to be an important particular to consider when building the logic. 
+This challenge utilized the node environment to create a dynamic Javascript application using relevant libraries. The result was a functioning PWA application with persistent data. I first encountered issues when trying to add database logic. The second complication occurred while setting up the webpack, so as to include instruction for rendering the app. Even though I included a path to the service worker file, I continued to receive messages that it could not connect. There were also issues pointing to the right image files in the HTML file. I am still unable to display the header file as in the mockup (see index file for detail - commented text) or the favicon - the other features appear to work. There were some messages in the terminal that I had trouble interpreting; for instance there was a persistent message about calling InjectManifest multiple times. I am unsure how this is the case, as it is only listed once but more work with the webpack documentation would likely prove beneficial here. Understanding all the moving parts is still an evolving process and though I see the utility of the supporting techologies used to create the PWA, namely the webpack and service worker, I will need more practice to fully grasp each component.
 
 Reformatting code, implementing clear naming convention, and notating often are skills that I work on continously - I hope to make them a natural part of the build process. 
 
 ## Usage
 
+<<<<<<< HEAD
 The server.js file can be used to understand the dynamic code that supports the application. Here is a link to the deployed application, for your reference: https://pwa-text-editor-f34v.onrender.com
+=======
+Here is a link to the deployed application, for your reference: https://pwa-text-editor-f34v.onrender.com
+I was unable to successfully deploy to Render, though the application does work locally.
+>>>>>>> bc27891a669c49244d1a58aa03ff43246ce9261b
 
 ## Credits
 The project was completed with help from the course materials and tutor, Erik Hirsch.
@@ -51,4 +56,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<<<<<<< HEAD
 The application should have a db.json file on the back end that will be used to store and retrieve notes using the fs module.
+=======
+The application should have a db.json file on the back end that will be used to store and retrieve notes using the fs module.
+>>>>>>> bc27891a669c49244d1a58aa03ff43246ce9261b
